@@ -238,7 +238,23 @@ export default function Home() {
         </div>
         <div className="layout flex flex-col items-center mt-20">
           <h2 className="text-5xl">Our Partners</h2>
-          <div className="swiper"></div>
+          <swiper-container
+            class="max-w-sm mt-10 px-3"
+            autoplay-delay="2500"
+            autoplay-disable-on-interaction="false"
+            loop="true"
+            navigation="true"
+          >
+            <swiper-slide>
+              <img src="/8b-images-0001.png" className="w-full" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="/8b-images-0003.png" className="w-full" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="/8b-images-0004.png" className="w-full" />
+            </swiper-slide>
+          </swiper-container>
         </div>
         <div className="w-full h-auto mt-28">
           <img
